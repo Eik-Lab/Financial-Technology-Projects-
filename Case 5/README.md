@@ -31,4 +31,17 @@ In order to achieve this the following activities is suggested:
 
 - Evaluate the added business value of this tool  
 
-  - Effects of a streamlined and automated sentiment analysis,  
+  - Effects of a streamlined and automated sentiment analysis,
+      - Does it free up valuable time for their analyst?  
+
+  - Does it identify potential investment risks and opportunities that were not immediately apparent from conventional analysis methods?  
+
+  - Does it enable earlier detection of shifts in public sentiment that often precede market changes, giving the firm a competitive edge?  
+
+  - Does it capture and interpret a vast amount of data quickly? (which is impossible manually).  
+
+- Recommendations and further work   
+
+    - How can (or should) this tool be incorporate into the fund investment strategies ?  
+
+Examples of sentiment analysis13 and other cases where ChatGPT is used
