@@ -4,7 +4,9 @@ The merger and acquisition(M&A) market is continuously growing at a high pace. T
 
 ## PROBLEM DESCRIPTION 
 Data is available, but there are still opportunities on how to develop the tools for assessing available data. Much of the quantitative firm-level innovation research relies on structured data made available by either third-party organizations, surveys, or interviews. Datasets aim to capture innovation inputs (e.g. R&D expenditure) and to create practical indicators for measuring innovation outcomes (e.g. through patents). This case is based on using patent data in combination with other sources to develop a data-driven method for assessing mergers and acquisitions. 
+
 To develop this method the following approach is suggested. 
+
 •	Project Specification 
 o	Identify - Indicators on firm level innovation activities 
 	reference work  for finding datasets or metrics. 
