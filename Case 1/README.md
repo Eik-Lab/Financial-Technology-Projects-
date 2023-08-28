@@ -3,6 +3,9 @@
 ## Goal 
 Design a predictive algorithm that determines optimal energy feed-in timings for individual power producers, enabling investment banks to better assess the financial implications and market dynamics of increased decentralized energy contributions to the grid.
 
+![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/37374275/ee244b7c-14de-4bc9-8624-02c6e899d4d9)
+
+
 ### SUGGESTED APPROACH 
 ●	Technology exploration
   o	Explore Transformer-based Timeseries predictions
