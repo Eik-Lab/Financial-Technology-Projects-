@@ -23,3 +23,7 @@ https://wegaw.com/swiss-industry-and-science-consortium-on-track-to-optimise-hyd
 https://business.esa.int/projects/defrost-for-hydropower
 https://www.nature.com/articles/s41597-023-02008-2
 https://huggingface.co/docs/transformers/model_doc/time_series_transformer
+
+#### Open datasets 
+https://www.kaggle.com/datasets?search=electricity+price
+https://www.kaggle.com/code/dimitriosroussis/electricity-price-forecasting-with-dnns-eda
