@@ -67,7 +67,7 @@ Develop your own ESG score, detail your methodology and offer sample calculation
 * Technology exploration  
   - Explore available data sources.  
 * Project Specification  
-  - Define your own KPIs assessing various parameters of a company's health .  
+  - Define your own KPIs assessing various parameters of a company's health.
 * Method - System Architecture  
   - Describe how data can be obtained, processed and aggregated, to keep your ESG score up-to-date 
 * Development of Minimum Viable Concept  
