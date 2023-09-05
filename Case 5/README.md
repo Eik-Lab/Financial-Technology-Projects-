@@ -1,4 +1,4 @@
-# SENTIMENT ANALYSIS 
+# CASE 5 - SENTIMENT ANALYSIS 
 ## Background
 In the constantly evolving investment landscape, having an edge can make the difference between a successful or unsuccessful investment strategy. In the era of information abundance, the challenge often lies in sifting through data to extract valuable insights. The development of a sentiment analysis (SA) tool addresses this challenge, enabling investment firms to make more informed decisions based on vast amounts of unstructured data found in news articles, financial reports, and social media platforms. Here's how sentiment analysis is commonly applied in fintech: 
 
