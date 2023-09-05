@@ -7,14 +7,14 @@ Data is available, but there are still opportunities on how to develop the tools
 
 To develop this method the following approach is suggested. 
 
-• Project Specification 
+* Project Specification 
   o	Identify - Indicators on firm-level innovation activities 
     	reference work  for finding datasets or metrics. 
     	available tools  
     	reference projects  
 
-•	System Architecture 
+* System Architecture 
   o	Propose a conceptual structure of a possible web scraping solution. 
 
-•	Development of Minimum Viable Concept 
+* Development of Minimum Viable Concept 
 o	Using Figma or Streamlit demonstrate how the system can be deployed. 
