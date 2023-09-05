@@ -17,13 +17,13 @@ Develop your own Bankruptcy score method that presents key aspects such as
 ## SUGGESTED APPROACH 
 In order to achieve this the following activities is suggested 
 *	Technology exploration 
-o	Explore available data sources. 
-▪	Review of the “US Company Bankruptcy Prediction Dataset” and references projects on how machine learning can be used to predict bankruptcy.
+  -	Explore available data sources. 
+    -	Review of the “US Company Bankruptcy Prediction Dataset” and references projects on how machine learning can be used to predict bankruptcy.
 *	Project Specification 
-o	Define your own KPIs assessing various parameters of a company's health. 
+  -	Define your own KPIs assessing various parameters of a company's health. 
 *	Method - System Architecture 
-o	Describe how data can be obtained, processed and aggregated, to keep your score up-to-date
+  -	Describe how data can be obtained, processed and aggregated, to keep your score up-to-date
 *	Development of Minimum Viable Concept 
-o	How can this data be presented? (ex. Figma description)
+  -	How can this data be presented? (ex. Figma description)
 *	Suggested limitations 
-o	The goal of this project could be proposing a method for predicting bankruptcy in a specific sector such as the financial sector such as larger financial institutions to regional banks in the US based on a knowledge transfer from this public available dataset. 
+  -	The goal of this project could be proposing a method for predicting bankruptcy in a specific sector such as the financial sector such as larger financial institutions to regional banks in the US based on a knowledge transfer from this public available dataset. 
