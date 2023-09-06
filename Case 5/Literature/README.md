@@ -1,6 +1,6 @@
 ## Links
 
-Here arge some relevant links to literature and examples. Use them as inspiration for your own work.
+Here are some relevant links with literature and examples. Use them as inspiration for your own work.
 
 [1. example](https://anvilproject.org/guides/content/creating-links)
 
