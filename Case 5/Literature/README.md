@@ -1,4 +1,3 @@
-## Links
 
 Here are some relevant links with literature and examples. Use them as inspiration for your own work.
 
