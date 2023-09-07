@@ -1,8 +1,8 @@
-# US Company Bankruptcy Prediction Datase
+# US Company Bankruptcy Prediction Dataset
 
-Accounting Data of NYSE and NASDAQ Companies (1999-2018)
+## Accounting Data of NYSE and NASDAQ Companies (1999-2018)
 
-## Dataset description
+#### Dataset description
 
 We present a unique dataset for predicting bankruptcy among American public companies listed on the New York Stock Exchange and NASDAQ. This dataset includes accounting data from 8,262 distinct companies spanning the years 1999 to 2018.
 
@@ -12,4 +12,12 @@ In our dataset, the fiscal year before the bankruptcy filing under either Chapte
 
 This resulting dataset consists of a total of 78,682 observations of firm-year combinations. To facilitate model training and evaluation, we divided the dataset into three subsets based on time periods. The training set includes data from 1999 to 2011, the validation set covers data from 2012 to 2014, and the test set encompasses the years 2015 to 2018. The test set serves as a means to assess the predictive performance of models in real-world scenarios involving unseen cases.
 
-Link to dataset - https://www.kaggle.com/datasets/utkarshx27/american-companies-bankruptcy-prediction-dataset
+**Link to dataset:** https://www.kaggle.com/datasets/utkarshx27/american-companies-bankruptcy-prediction-dataset
+
+## Taiwanese Bankruptcy Prediction dataset
+
+#### Dataset description
+
+The data were collected from the Taiwan Economic Journal for the years 1999 to 2009. Company bankruptcy was defined based on the business regulations of the Taiwan Stock Exchange.
+
+**Link to dataset:** https://www.kaggle.com/datasets/fedesoriano/company-bankruptcy-prediction
