@@ -9,3 +9,4 @@ This dataset contains information on companies' innovative behavior measured at 
 In addition to the web-scraped data, the dataset aggregates a variety of firm-level indicators, including patenting activities. In total, the dataset includes 28 variables with unique identifiers, which enable connections to other databases, such as financial data.
 
 **Link to dataset:** https://dataverse.nl/dataset.xhtml?persistentId=doi:10.34894/BS9XVR
+**Link to literature accompanying the dataset:** https://www.sciencedirect.com/science/article/pii/S2352340922004486
