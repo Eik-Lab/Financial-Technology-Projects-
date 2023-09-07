@@ -123,13 +123,15 @@ for row_id, row in enumerate(rows_data):
     table_rows.append(current_row)
 ```
 
-We can then save this nested list of table rows into a CSV file:
+We can then save this nested list of table rows into a CSV file. Swap out YOUR_PATH with the place you want to save the data:
 
 ```python
 import pandas as pd
 
-pd.DataFrame(table_rows, columns=column_titles).to_csv("Data/android_version_history_pandas.csv", index=False)
-data_1 = pd.read_csv("Data/android_version_history.csv")
+YOUR_PATH= = "Data/android_version_history_pandas.csv"
+
+pd.DataFrame(table_rows, columns=column_titles).to_csv(YOUR_PATH, index=False)
+data_1 = pd.read_csv(YOUR_PATH)
 data_1.head(10)
 ```
 
