@@ -1,6 +1,8 @@
 ## Financial Sentiment Analysis on Stock Market Headlines With FinBERT & HuggingFace
 
-Authored by ivangoncharov.
+**The original article can be found here:**  
+https://wandb.ai/ivangoncharov/FinBERT_Sentiment_Analysis_Project/reports/Financial-Sentiment-Analysis-on-Stock-Market-Headlines-With-FinBERT-HuggingFace--VmlldzoxMDQ4NjM0
+
 
 Financial news headlines are abundant sources of NLP data, especially when predicting stock performance. This is usually achieved via sentiment analysis, which categorizes phrases into positive, negative, and neutral sentiments. In this guide, we discuss FinBERT and sentiment analysis.
 
