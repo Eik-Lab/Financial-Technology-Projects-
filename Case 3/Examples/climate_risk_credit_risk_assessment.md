@@ -43,7 +43,7 @@ How Flood Event Can Affect Your Mortgage Book Behavior?
 
 In the area damaged or destroyed by flood events, one would expect to see an instant spike in delinquency rates. That is because some homeowners might have to repair significant damages or even rebuild their properties while paying rent for short-term housing, when forbearance program or modifications are not yet offered to them. The figure below demonstrates the instant hike in delinquency rates in Texas after Hurricane Harvey in Aug 2017.
 
-Image by Author — Freddie Mac Delinquency Status (2014–2019 vintage) in Texas
+![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/45490612/3d6c76b8-1e8f-46f7-ac3e-9223ce3a3c77)
 
 Also as shown in the figure above, after the financial assistance programs (i.e. forbearance, repayment plans an/or loan modifications) are made available to borrowers, a great amount of delinquent loans will be resolved before rolling into severe delinquency or default status. **The chance of loans became severely delinquent or default are mainly determined by the severity of flood damage (or remaining home equity size), and income status of the borrower**. According to the [case study of Hurricane Harvey](https://www.tandfonline.com/doi/full/10.1080/10527001.2020.1840131) based on Fannie Mae data, compared with properties with no damage, moderate to severe damage (i.e. greater than 10% damage over property value) increases the odds of loans becoming 90 days delinquent during the five months post-flood period by three times.
 
@@ -70,31 +70,34 @@ Since flood depth is the best proxy to estimate property damage, for decades, a 
 
 It appears that the higher the number of floors (herein Townhouse represents townhouse with three or more floors), the lower the exposure to flood damages. The highest risk belong to Manufactured (mobile) home or travel trailer on foundation.
 
-_Image by Author — Damage Ratio by Number of Floors (TX & FL) based on NFIP claims data_
+![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/45490612/f8dd0588-9819-4b02-adcc-8c78173a8bcb)
 
 > Basement Types
 
 Single-family house with no basement (including basement type — unknown) tends to show higher risks of damages as compared to the ones with basement structure. As expected, when a basement is more complete and similar to its upstairs living areas, the property tends to show lower risk of flood damages.
 
-Image by Author — Damage Ratio by Basement Types (TX & FL) based on NFIP claims data
+![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/45490612/ec6bd95b-18b0-4089-a498-8176bc6e5948)
 
 > Flood Zone (Flood Insurance Rating Map — FIRM)
 
 FEMA assigns and maintains flood zone rating to help mortgage lenders determine insurance requirements and help communities develop strategies for reducing their risks. Flood zone is defined based on flood risk drivers such as probability of flood hits, area characteristics (e.g. coastal, ponding etc.), construction standards and etc.. Refer to table below for details.
 
-Image by Author; Original Source: [https://floodpartners.com/flood-zones/](https://floodpartners.com/flood-zones/)
+![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/45490612/588253b5-ded0-43c2-8581-22bea363df31)
+
+
+_Original Source: [https://floodpartners.com/flood-zones/](https://floodpartners.com/flood-zones/)_
 
 It is observant that damage ratio is fairly sensitive to the flood zones, however not necessarily the highest damage ratios are always associated with the high risk flood zones. In some cases, it is quite the opposite where low to moderate risk zone such as Zone C and Zone X have shown high damage ratios as well. This is probably because the static flood zone rating introduced by FEMA since 1970s can no longer provide accurate measurement of the area’s intrinsic flood risks. In fact, earlier this year, FEMA has announced to launch **Risk Rating 2.0** in Oct 2021. The new risk rating methodology is expected to incorporate more flood risk variables, including flood frequency, multiple flood types — river overflow, storm surge, coastal erosion and heavy rainfall — and distance to a water source along with property characteristics such as elevation and the cost to rebuild.
 
-Image by Author — Damage Ratio by Flood Zones (TX & FL) based on NFIP claims data
+![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/45490612/4eb92d79-b8d9-417e-a034-8cee20d86f4a)
 
 Similar conclusion can be drawn from figures below, which present an alternative view on the damage ratio caused by Hurricane Harvey and its comparison to the SFHA zone designation of the same area.
 
-Image by Author — Hurricane Harvey NFIP Damage Ratio and SFHA Zone Comparison (created using Basemap in Python)
+![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/45490612/69edf462-70be-47bb-b6f6-d6173479d5bb)
 
 When placing the above two figures on top of each other, one can see from the figure below that many areas subject to high damages (blue shades) are actually located outside of SFHA zone.
 
-Image by Author — Hurricane Harvey NFIP Damage Ratio and SFHA Zone Overlap (created using Basemap in Python)
+![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/45490612/210d2966-9f6a-4343-9bdb-6fc48254148b)
 
 What’s Next?
 ============
@@ -108,7 +111,7 @@ Conclusion
 
 Hope this article helps you think about how to incorporate insurance data into your credit risk analysis and quantify the impact of climate risks. Leave your comments below if you like it. The full code of the above analysis (including the Basemap zip code level plot) can be found [**here**](https://gist.github.com/domisoxz/be99af5b3863e041b7cb793097db2e12).
 
-Use Basemap to plot zip code level damage ratio & flood zone rating for Hurricane Harvey (Houston, TX)
+_Use Basemap to plot zip code level damage ratio & flood zone rating for Hurricane Harvey (Houston, TX)_
 
 **Footnote**
 
