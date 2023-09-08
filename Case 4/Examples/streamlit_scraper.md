@@ -3,13 +3,16 @@ Building a Search Engine Scraper with Streamlit
 
 ##### *Web scraping is an effective technique to acquire data from the web with minimal manual effort*
 
-_Author: KSV Muralidhar 
-_Source: Nerd For Tech_  
+---
+_Author: KSV Muralidhar_
+
+_Source: Nerd For Tech_ 
+
 _Publication Date: Aug 10, 2021_
+
 _Link: https://medium.com/nerd-for-tech/building-a-search-engine-scraper-with-streamlit-b616e5bd293c_
 
 ---
-
 
 ## Web scraping
 Web scraping enables us to acquire data from the web with minimal manual effort. However, this technique must be used with caution such that it doesn’t degrade the performance of a website. Before proceeding, we’ll discuss a few tips to follow to protect ourselves from being blacklisted by a website as a consequence of degrading its performance.
@@ -106,6 +109,9 @@ streamlit run bing\_scrape\_streamlit.py
 
 Below is the output of the app in a local browser after executing the above command in the terminal of a local machine. We can also see a data frame of the results at the bottom of the output.
 
+![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/45490612/1183f15e-2d94-4c1c-945c-e9dd3131f99a)
+
+
 
 How are the extracted search results useful?
 --------------------------------------------
@@ -136,10 +142,15 @@ We can identify the right tag by inspecting the source code of a web page. The *
 
 **Step 1:** We’ll right click on the element in a web page that we want to scrape and select **‘Inspect’**. For search engine scraper, we want to scrape the title, URL and description of a search result. Hence, we’ll right click on the URL in the first search result.
 
+![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/45490612/da027152-799a-4b98-bb83-ad280a8f57cc)
+
 
 **Step 2:** We must select a tag (parent tag) that embeds all the tags (child tags) we want to scrape. For example, we need to scrape the search results, so we’ll select a parent tag that embeds all the tags attached to a single search result. In the figure below, `<li class=”b\_algo”>` embeds all the tags attached to a single search result. Now we can extract each child tag from `<li class=”b\_algo”>` by processing each `<li class=”b\_algo”>` (search result) individually.
 
 We shouldn’t select only `<h2>` (title of search result) or `<p>` (description of a search result). This may pick up other `<h2>`'s and `<p>`'s in the page other than the ones associated with the search results. This may also make it difficult for us to map a list of `<h2>` to a list of `<p>`'s.
+
+![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/45490612/3f430001-d423-416c-ae8b-e3859edc0d83)
+
 
 Hence, web scraping helps us in reducing the manual effort required for acquiring data from the web. We may use the same code multiple times to extract data from a website, provided the structure of the website stays the same. Code to extract the HTML script from a web page is similar for all the websites. What’s different is the process of cleaning and extracting the required data from the HTML script.
 
