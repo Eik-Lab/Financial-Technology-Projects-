@@ -111,7 +111,187 @@ Conclusion
 
 Hope this article helps you think about how to incorporate insurance data into your credit risk analysis and quantify the impact of climate risks. Leave your comments below if you like it. The full code of the above analysis (including the Basemap zip code level plot) can be found [**here**](https://gist.github.com/domisoxz/be99af5b3863e041b7cb793097db2e12).
 
-_Use Basemap to plot zip code level damage ratio & flood zone rating for Hurricane Harvey (Houston, TX)_
+
+```py
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
+import matplotlib as mpl
+import seaborn as sns
+import numpy as np
+
+from mpl_toolkits.basemap import Basemap
+import matplotlib.pyplot as plt
+from matplotlib.colors import rgb2hex
+import os
+import os.path
+
+import matplotlib as mpl
+
+pd.options.display.max_rows = 100
+
+%matplotlib inline
+%config InlineBackend.figure_format = 'retina' 
+plt.style.use('seaborn-colorblind')
+plt.rcParams["patch.force_edgecolor"] = True
+
+# You may want to adjust the figure size if the figures appear too big or too small on your screen. 
+mpl.rcParams['figure.figsize'] = (10.0, 6.0)
+
+#Download NFIP data from OpenFema
+NFIP_claims = pd.read_csv('https://www.fema.gov/api/open/v1/FimaNfipClaims.csv')
+
+#Remove Duplicated Rows
+#there are duplicated rows with all records same except for the ID:Unique ID assigned to the record
+NFIP_claims_drop_id = NFIP_claims.loc[:, NFIP_claims.columns != 'id']
+NFIP_claims =NFIP_claims[NFIP_claims_drop_id.duplicated()==False]
+
+#Filter on Single-Family Loans based on Freddie Mac Definition
+NFIP_claims = NFIP_claims[NFIP_claims["occupancyType"].isin([1.,2.])]
+
+#Missing Value Analysis
+#for amountPaidOnBuildingClaim and amountPaidOnIncreasedCostOfComplianceClaim, fill NA with 0
+NFIP_claims['amountPaidOnBuildingClaim'] = NFIP_claims['amountPaidOnBuildingClaim'].fillna(0)
+NFIP_claims['amountPaidOnIncreasedCostOfComplianceClaim'] = NFIP_claims['amountPaidOnIncreasedCostOfComplianceClaim'].fillna(0)
+
+#Create Damage Ratio
+#drop rows with 0 coverage drop rows with paid building clams < 0
+#Remove claim data that are negative, since negative means operational error. a negative amount may appear which occurs when a check issued to a policy holder isn't cashed and has to be re-issued.
+NFIP_claims = NFIP_claims[NFIP_claims["amountPaidOnBuildingClaim"]>=0]
+NFIP_claims["claim_total"] = NFIP_claims["amountPaidOnBuildingClaim"] + NFIP_claims["amountPaidOnIncreasedCostOfComplianceClaim"]
+NFIP_claims["damage_ratio"] = NFIP_claims["claim_total"]/NFIP_claims["totalBuildingInsuranceCoverage"]
+
+#Harvey Claims Data
+#only 1 AS and 2 AR in the entire data set, group these 2 with AE_A1_30; D, V is very limited after 2018, grouped with VE_V1_30
+fld_zone_map = pd.DataFrame({'floodZone':['A', 'A01', 'A02', 'A03', 'A04', 'A05', 'A06', 'A07', 'A08', 'A09', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'A18', 'A19', 'A20', 'A21', 'A22', 'A23', 'A24', 'A25', 'A28', 'A30', 'AE', 'AH', 'AHB', 'AO', 'AOB', 'AR', 'AS', 'C', 'D', 'V', 'V01', 'V02', 'V05', 'V06', 'V07', 'V08', 'V09', 'V10', 'V11', 'V12', 'V13', 'V14', 'V15', 'V16', 'V17', 'V19', 'V21', 'V22', 'VE', 'X'],
+                   'flood_zone_map':['A','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AE_A1_30','AH','AH','AO','AO','AE_A1_30','AE_A1_30','C','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','VE_V1_30','X']})
+
+Harvey_claims = NFIP_claims[(NFIP_claims["dateOfLoss"]>'2017-08-15')&(NFIP_claims["dateOfLoss"]<'2017-09-01')]
+
+Harvey_claims = pd.merge(Harvey_claims, fld_zone_map, how='left', on=['floodZone'])
+zone = pd.DataFrame({'flood_zone_map':["A","AE_A1_30","AH","AO","C","VE_V1_30","X"],'zone_code':[1,2,3,4,6,5,7]})
+Harvey_claims_map = pd.merge(Harvey_claims, zone, how='left', on=['flood_zone_map'])
+Harvey_claims_2 = Harvey_claims_map[Harvey_claims_map['state'].isin(["TX"])]
+Harvey_claims_2["zone_code"] = Harvey_claims_2["zone_code"].fillna(0)
+
+#Shape files are available for download at https://www.census.gov/geographies/mapping-files/2018/geo/carto-boundary-file.html
+Shape_Path = "Local Path where you save the ZIP_code_boundary shape files/ZIP_code_boundary/"
+shape_file = "cb_2018_us_zcta510_500k"
+us_shape_file_dir = os.path.join(Shape_Path, shape_file)
+os.chdir(us_shape_file_dir)
+
+#Longitude and Latitude for Houston area
+lowerlon = -95.80
+upperlon = -95.05
+lowerlat = 29.52
+upperlat = 30.13
+
+# create map using BASEMAP
+m = Basemap(
+    llcrnrlon=lowerlon,
+    llcrnrlat=lowerlat,
+    urcrnrlon=upperlon,
+    urcrnrlat=upperlat,
+    resolution='c',
+    projection='lcc',
+    lat_0=lowerlat,
+    lat_1=upperlat,
+    lon_0=lowerlon,
+    lon_1=upperlon
+    )
+
+shp_info = m.readshapefile(os.path.basename(us_shape_file_dir), 'city')
+plt.gca().axis("off")
+mpl.rcParams['figure.figsize'] = (80,60)
+plt.show()
+
+Harvey_claims_2["reportedZipcode"] = Harvey_claims_2["reportedZipcode"].apply(np.int64)
+Harvey_claims_2_avg = Harvey_claims_2.groupby(['reportedZipcode'])["damage_ratio"].mean().reset_index()
+Harvey_claims_2_avg['reportedZipcode'] = Harvey_claims_2_avg['reportedZipcode'].apply(np.int64)
+
+#Houston Area - Hurricane Harvey NFIP Damage Ratio by Zip Code
+damage_by_zip = {str(i):j for (i, j) in zip(Harvey_claims_2_avg.reportedZipcode.values,Harvey_claims_2_avg.damage_ratio.values)}
+# Choose a color for each state based on damage ratio distribtion.
+ziplist = []
+colors  = {}
+vmin    = 0.
+vmax    = 1.
+colormap = plt.cm.Blues
+
+zip_info  = m.city_info
+
+for d in zip_info:
+    iterzip = d["ZCTA5CE10"]
+    if iterzip in damage_by_zip.keys():
+        iterpop = damage_by_zip.get(iterzip,0)
+        colors[iterzip] = colormap(iterpop)[:3]
+    ziplist.append(iterzip)
+   
+for nshape,seg in enumerate(m.city):
+    i, j = zip(*seg)
+    if ziplist[nshape] in damage_by_zip.keys():
+        color = rgb2hex(colors[ziplist[nshape]])
+        edgecolor = "#000000"
+        plt.fill(i,j,color,edgecolor=edgecolor);
+
+sm = plt.cm.ScalarMappable(cmap=colormap,norm=mpl.colors.Normalize(vmin=vmin, vmax=vmax))
+
+mm = plt.cm.ScalarMappable(cmap=colormap)
+mm.set_array([vmin, vmax])
+cb = plt.colorbar(mm,ticks=np.arange(vmin, vmax+1, 1),orientation="vertical")
+cb.ax.tick_params(labelsize=50)
+plt.title("Houston Area - Hurricane Harvey NFIP Damage Ratio by Zip Code", fontsize=100)
+plt.gca().axis("off")
+plt.show()
+
+#Houston Area - SFHA Zone by Zip Code
+Harvey_claims_2_avg2 = Harvey_claims_2.groupby(['reportedZipcode'])["zone_code"].mean().reset_index()
+Harvey_claims_2_avg2['reportedZipcode'] = Harvey_claims_2_avg2['reportedZipcode'].apply(np.int64)
+Harvey_claims_2_avg2["zone_code"] = round(Harvey_claims_2_avg2["zone_code"])
+
+zone_by_zip = {str(i):j for (i, j) in zip(Harvey_claims_2_avg2.reportedZipcode.values,Harvey_claims_2_avg2.zone_code.values)}
+# Choose a color for each state based on damage ratio distribtion.
+ziplist = []
+colors_2  = {}
+vmin    = 0.
+vmax    = 7.
+colormap_2 = plt.cm.Oranges
+
+zip_info  = m.city_info
+#colormap needs to be normalized between 0 to 1
+normalizer = (vmax-vmin)
+zone_by_zip_norm = {i:(j/normalizer) for (i,j) in zone_by_zip.items()}
+
+for d in zip_info:
+    iterzip = d["ZCTA5CE10"]
+    if iterzip in zone_by_zip_norm.keys():
+        #print(iterzip)
+        iterzone = zone_by_zip_norm.get(iterzip,0)
+        #print(iterzone)
+        #print(colormap_2(iterzone))
+        colors_2[iterzip] = colormap_2(iterzone)[:3]
+    ziplist.append(iterzip)
+   
+for nshape,seg in enumerate(m.state):
+    i, j = zip(*seg)
+    if ziplist[nshape] in zone_by_zip_norm.keys():
+        color = rgb2hex(colors_2[ziplist[nshape]])
+        edgecolor = "#000000"
+        plt.fill(i,j,color,edgecolor=edgecolor);
+
+sm = plt.cm.ScalarMappable(cmap=colormap_2,norm=mpl.colors.Normalize(vmin=vmin, vmax=vmax))
+
+mm = plt.cm.ScalarMappable(cmap=colormap_2)
+mm.set_array([vmin, vmax])
+cb_2 = plt.colorbar(mm,ticks=np.arange(vmin, vmax+1, 1),orientation="vertical")
+cb_2.ax.tick_params(labelsize=50)
+plt.title("Houston Area - SFHA Zone by Zip Code", fontsize=100)
+plt.gca().axis("off")
+plt.show()  
+
+```
+
 
 **Footnote**
 
