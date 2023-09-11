@@ -29,7 +29,7 @@ Suggested goal - Use Alpaca's paper-trading API and create trading algorithm on 
   - Describe an overview of how a system can be built.  
 
 * Development of Minimum Viable Concept
-  - ​​​Using Figma or [Streamlit to demonstrate how the system can be deployed]([https://medium.com/analytics-vidhya/financial-data-streaming-using-alpaca-and-streamlit-88aa21c75f27](https://alpaca.markets/learn/financial-data-streaming-alpaca-streamlit/)
+  - ​​​Using Figma or [Streamlit to demonstrate how the system can be deployed]([https://medium.com/analytics-vidhya/financial-data-streaming-using-alpaca-and-streamlit-88aa21c75f27](https://alpaca.markets/learn/financial-data-streaming-alpaca-streamlit/
 ).  
 
 * Tips on what possible triggers to include in the trading algorithm 
