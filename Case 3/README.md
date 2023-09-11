@@ -1,5 +1,5 @@
 # CASE 3 - CLIMATE RISK ASSESSMENT
-## PROBLEM DESCRIPTION 
+## BACKGROUND
 When we talk about "the sustainability of stock trades" we're not typically referring to the act of trading stocks in and of itself. Instead, we're usually discussing the sustainability implications of the companies behind those stocks. In essence, it's about evaluating the environmental, social, and governance (ESG) factors of the companies whose stocks are being traded. The calculation of ESG (Environmental, Social, and Governance) ratings is complex and can vary significantly between different rating agencies. Each agency usually develops its methodology, which might involve proprietary algorithms, weightings, and metrics. Because of this variation, a company might receive different ESG ratings from different agencies, even though the underlying data might be largely similar. 
 
 _Here's a general overview of how ESG ratings might be calculated:_
@@ -57,6 +57,9 @@ Once scores are normalized and compared against peers, rating agencies could cat
 * 40-59: Fair 
 * 20-39: Poor 
 * 0-19: Very Poor
+
+## PROBLEM DESCRIPTION
+Your group is asked to create a transparent and reliable ESG scoring system that evaluates companies based on their environmental, social, and governance practices. Participants are tasked with developing their own ESG score, complete with a detailed methodology and sample calculations derived from real-world data.
 
 
 ## GOAL
