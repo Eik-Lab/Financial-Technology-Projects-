@@ -1,4 +1,6 @@
 # CASE 2 - LIVE TRADING PLATFORM
+<img width="372" alt="case2" src="https://github.com/Eik-Lab/NBIM-hackathon/assets/91673370/4a4d21f7-5b7b-4469-8e51-f6ef26b54f7a">
+
 ## BACKGROUND 
 The basis for this case is to explore different user cases of The Alpaca platform which is a  modern, cloud-based trading platform that provides easy access to market data, order management, and trading APIs. The platform is designed to be highly scalable and customizable, making it an ideal foundation for a wide range of trading applications
 
@@ -10,7 +12,6 @@ One of the key features of the Alpaca platform is its ease of use, and participa
 
 To help participants get started, they will have access to [Alpaca's comprehensive documentation](https://alpaca.markets/docs/introduction/ 
 ), trading APIs, and development tools. They may also have access to various datasets, market data feeds, and other resources to help them build their solutions. 
-
 
 
 ## GOALS AND OBJECTIVES 
@@ -30,3 +31,10 @@ Suggested goal - Use Alpaca's paper-trading API and create trading algorithm on 
 * Development of Minimum Viable Concept
   - ​​​Using Figma or [Streamlit to demonstrate how the system can be deployed](https://medium.com/analytics-vidhya/financial-data-streaming-using-alpaca-and-streamlit-88aa21c75f27 
 ).  
+
+* Tips on what possible triggers to include in the trading algorithm 
+  - Volume of traded stocks
+  - Real-time stock price
+  - Historical data
+  - Buy- and sell triggers
+![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/91673370/d43ef478-f39a-44b7-bfdc-a62ceb274a1b)
