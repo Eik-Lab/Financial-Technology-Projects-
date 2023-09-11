@@ -37,4 +37,3 @@ Suggested goal - Use Alpaca's paper-trading API and create trading algorithm on 
   - Real-time stock price
   - Historical data
   - Buy- and sell triggers
-![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/91673370/d43ef478-f39a-44b7-bfdc-a62ceb274a1b)
