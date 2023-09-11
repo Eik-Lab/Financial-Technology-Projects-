@@ -1,4 +1,4 @@
-# Examples for Case 3
+# Examples for Case 1
 
 ## Example 1 - Hourly Electricity Price Forecasting using Long Short-Term Memory Neural Networks
 
