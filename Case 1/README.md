@@ -1,4 +1,6 @@
 # CASE 1 - ELECTRICITY PRICE FORECASTING
+![case1](https://github.com/Eik-Lab/NBIM-hackathon/assets/91673370/819d8d33-4b45-4052-8cd3-dca9c4cb2ee7)
+
 ## BACKGROUND
 As the global transition to renewable energy gathers pace, individual power generation is becoming an increasingly viable option. Many homeowners and small-scale entrepreneurs are installing solar panels, wind turbines, and battery storage systems. This decentralized energy generation model has the potential to reshape energy markets, not only from an infrastructural standpoint but also from a financial trading perspective, especially for investment banks that are always on the lookout for emerging market trends. 
 
