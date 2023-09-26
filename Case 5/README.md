@@ -29,7 +29,7 @@ Your team is tasked to develop a sentiment analysis tool using advanced NLP (Nat
 
 - Deployment of the method as a tool – optional  
 
-  - Eg. Use the ChatGPT API and streamlit to test of the method.  
+  - Eg. Use the openai API and streamlit to test of the method.  
 
 - Evaluation of the tool/method  
 
