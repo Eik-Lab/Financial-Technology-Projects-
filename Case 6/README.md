@@ -1,5 +1,7 @@
 # CASE 6 - DATA-DRIVEN BANKRUPTCY PREDICTION
-![Case6](https://github.com/Eik-Lab/NBIM-hackathon/assets/91673370/ad6dd8da-3909-4892-b838-41a426ef56af)
+
+![case6](https://github.com/Eik-Lab/NBIM-hackathon/assets/48220549/98347d2e-d0c0-4168-87cc-d37de0972bae)
+
 
 ## BACKGROUND 
 In the intricate world of investment banking, being able to assess the financial stability and potential risks associated with companies is of paramount importance. While traditional methods provide a myriad of metrics to analyze, synthesizing them into a single, digestible, and actionable score can significantly streamline the decision-making process for stakeholders. This concept is not foreign, as seen with ESG scores focusing on environmental, social, and governance factors. Drawing inspiration from such consolidated metrics, there's a growing demand for a similar, unified "Bankruptcy Score" to gauge a company's risk of insolvency.
