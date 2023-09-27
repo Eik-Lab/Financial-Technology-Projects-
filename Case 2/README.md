@@ -1,5 +1,7 @@
 # CASE 2 - LIVE TRADING PLATFORM
-<img width="372" alt="case2" src="https://github.com/Eik-Lab/NBIM-hackathon/assets/91673370/4a4d21f7-5b7b-4469-8e51-f6ef26b54f7a">
+
+![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/48220549/70461455-9f72-4f35-88cd-4baacbdee38f)
+
 
 ## BACKGROUND 
 The basis for this case is to explore different user cases of The Alpaca platform which is a  modern, cloud-based trading platform that provides easy access to market data, order management, and trading APIs. The platform is designed to be highly scalable and customizable, making it an ideal foundation for a wide range of trading applications
