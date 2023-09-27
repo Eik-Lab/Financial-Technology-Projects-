@@ -1,5 +1,6 @@
 # CASE 3 - CLIMATE RISK ASSESSMENT
-![case3](https://github.com/Eik-Lab/NBIM-hackathon/assets/91673370/5e673005-ebe5-4d2c-ae13-6446dc24d713)
+![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/48220549/cb17ca80-672b-497a-8217-bf550f3a9ca6)
+
 
 ## BACKGROUND
 When we talk about "the sustainability of stock trades" we're not typically referring to the act of trading stocks in and of itself. Instead, we're usually discussing the sustainability implications of the companies behind those stocks. In essence, it's about evaluating the environmental, social, and governance (ESG) factors of the companies whose stocks are being traded. The calculation of ESG (Environmental, Social, and Governance) ratings is complex and can vary significantly between different rating agencies. Each agency usually develops its methodology, which might involve proprietary algorithms, weightings, and metrics. Because of this variation, a company might receive different ESG ratings from different agencies, even though the underlying data might be largely similar. 
