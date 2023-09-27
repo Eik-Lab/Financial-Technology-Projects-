@@ -1,5 +1,6 @@
 # CASE 5 - SENTIMENT ANALYSIS 
-![case5](https://github.com/Eik-Lab/NBIM-hackathon/assets/91673370/9d6ae5f4-1155-4a55-9505-8c64d66dee01)
+![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/48220549/755bd65b-afa8-485b-b77a-ac41f751b820)
+
 
 ## Background
 In the constantly evolving investment landscape, having an edge can make the difference between a successful or unsuccessful investment strategy. In the era of information abundance, the challenge often lies in sifting through data to extract valuable insights. The development of a sentiment analysis (SA) tool addresses this challenge, enabling investment firms to make more informed decisions based on vast amounts of unstructured data found in news articles, financial reports, and social media platforms. Here's how sentiment analysis is commonly applied in fintech:
