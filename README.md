@@ -3,7 +3,8 @@
 Welcome to the official repository for the NBIM hackathon 
 here you will find the key resources such a literature, tools and datasets that will accelerate your project 
 
-![image](https://github.com/Eik-Lab/nbim-hackathon/assets/37374275/4e3f555a-2a7a-402d-bd1c-72d6bc0992da)
+![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/48220549/7a0670c1-7b9f-4806-96f1-be6bb477ec5a)
+
 
 ## CASE DESCRIPTION – OVERVIEW
 * **Case 1** – The Future of Electricity Price Forecasting (EPF)  
