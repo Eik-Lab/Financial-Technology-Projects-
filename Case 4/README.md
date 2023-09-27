@@ -1,5 +1,6 @@
 # CASE 4 - DATA-DRIVEN DECISIONS IN MERGERS & ACQUISITIONS
-<img width="468" alt="case4" src="https://github.com/Eik-Lab/NBIM-hackathon/assets/91673370/ed608882-b138-4ee5-a8af-b52e97e70cca">
+<img width="468" alt="case4" src="https://github.com/Eik-Lab/NBIM-hackathon/assets/48220549/69a7f82d-48b0-4780-9f8f-3c2a5165bd94">
+
 
 ## BACKGROUND 
 The merger and acquisition (M&A) landscape is booming. In 2022, global M&A transactions reached an impressive value of $3.4 trillion. Yet, a staggering statistic remains: despite the growth and volume of these transactions, between 70% and 90% fail to add the anticipated value for shareholders. With the rapid evolution of technology, many companies are turning to M&As to acquire innovative assets, intellectual property, and renowned brands to better position themselves in the market. These acquisitions can present uncertainties, especially in the tech-dominated era. To navigate this, many are turning to data analytics, with the latest AI and analytics solutions promising informed decision-making and foresight.
