@@ -3,7 +3,7 @@
 		"title": "Electricity Price Forecasting",
 		"description": "Design a predictive algorithm that determines optimal energy feed-in timings for individual power producers, enabling investment banks to better assess the financial implications and market dynamics of increased decentralized energy contributions to the grid.",
 		"image": {
-			"src": "https://private-user-images.githubusercontent.com/37374275/263644351-39667a9f-6e39-468b-a38d-af27bc52ff55.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTU0NzI1MDIsIm5iZiI6MTY5NTQ3MjIwMiwicGF0aCI6Ii8zNzM3NDI3NS8yNjM2NDQzNTEtMzk2NjdhOWYtNmUzOS00NjhiLWEzOGQtYWYyN2JjNTJmZjU1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA5MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwOTIzVDEyMzAwMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRhOTg0ZGRjNmY4NTkzMWU1ZjRhYjFmODFhYjU4OTlhZGIzYTZiY2E0ODdhMzc1ZjMxZWRhYjFhMDNlYTBhZDEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Q4WkVIvob0fpLyeFOP7ceLH7KU5BLjUFkLYtnIR1sWQ",
+			"src": "https://user-images.githubusercontent.com/48220549/270884831-59f3b4cc-9e4d-458f-b809-bb57518381a3.png",
 			"alt": "Case 1 - Electricity Price Forecasing Image"
 		}
 	},
@@ -12,7 +12,7 @@
 		"title": "Live Trading Platform",
 		"description": "​​​​​The overall goal of this project is to create new tools, applications, and integrations around the Alpaca platform and provide users with new ways to trade.",
 		"image": {
-			"src": "https://private-user-images.githubusercontent.com/91673370/266938659-4a4d21f7-5b7b-4469-8e51-f6ef26b54f7a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTU0NzI2MTAsIm5iZiI6MTY5NTQ3MjMxMCwicGF0aCI6Ii85MTY3MzM3MC8yNjY5Mzg2NTktNGE0ZDIxZjctNWI3Yi00NDY5LThlNTEtZjZlZjI2YjU0ZjdhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA5MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwOTIzVDEyMzE1MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA2ZWVlY2I5ZjczYjM1MTk3MGMyYzRhMWQ2OGM0N2JjMjE2Y2JmNjViYjIzNThmZDI2ODRkZTk3NGQxOWQxM2YmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.6MUjwHoWpPpna-otn9nyUa4Ck5PI3VeoNM3if5TUtGA",
+			"src": "https://user-images.githubusercontent.com/48220549/270884948-70461455-9f72-4f35-88cd-4baacbdee38f.png",
 			"alt": "Case 2 - Live Trading Platform Image"
 		}
 	},
@@ -21,7 +21,7 @@
 		"title": "Climate Risk Assessment",
 		"description": "​​​​​Develop your own ESG score, detail your methodology and offer sample calculations derived from real-world data you've unearthed.",
 		"image": {
-			"src": "https://private-user-images.githubusercontent.com/91673370/267022106-5e673005-ebe5-4d2c-ae13-6446dc24d713.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTU0NzI2OTIsIm5iZiI6MTY5NTQ3MjM5MiwicGF0aCI6Ii85MTY3MzM3MC8yNjcwMjIxMDYtNWU2NzMwMDUtZWJlNS00ZDJjLWFlMTMtNjQ0NmRjMjRkNzEzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA5MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwOTIzVDEyMzMxMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdmMzhmMGU4NWIyYTlmOTFjZWNkOTMyOTYzM2VkNjhhYWJhYmM2ZGU3MzgxMjQxNzNhZjlhNmIxNTQ5OGM2ZDImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.kZRgcFpiHX2Y3iMuB1cKvWydUkPy-lq3IUnM-SiPycw",
+			"src": "https://user-images.githubusercontent.com/48220549/270884674-cb17ca80-672b-497a-8217-bf550f3a9ca6.png",
 			"alt": "Case 3 - Climate Risk Assessment Image"
 		}
 	},
@@ -30,7 +30,7 @@
 		"title": "Data-driven Decisions in Mergers & Acquisitions",
 		"description": "​​​​​Design a robust scoring system that can evaluate the potential success of an M&A transaction.",
 		"image": {
-			"src": "https://private-user-images.githubusercontent.com/91673370/267021815-ed608882-b138-4ee5-a8af-b52e97e70cca.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTU0NzI3NzcsIm5iZiI6MTY5NTQ3MjQ3NywicGF0aCI6Ii85MTY3MzM3MC8yNjcwMjE4MTUtZWQ2MDg4ODItYjEzOC00ZWU1LWE4YWYtYjUyZTk3ZTcwY2NhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA5MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwOTIzVDEyMzQzN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTY2NzY5MjVhMGJiZDY2OGQ2M2IwODA3YmZmOGJkZDYwNGRlNzlmOGNhYjQ2YmU1NWIwYmZkNTQ4NjlmOTk0NDkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.tq0mJoxeHdwbgKIidt9rBVL7ghXqt7vYNk96Rcr3TD4",
+			"src": "https://user-images.githubusercontent.com/48220549/270884441-69a7f82d-48b0-4780-9f8f-3c2a5165bd94.png",
 			"alt": "Case 4 - Data-driven Decisions in Mergers & Acquisitions Image"
 		}
 	},
@@ -39,7 +39,7 @@
 		"title": "Sentiment Analysis",
 		"description": "​​​​​Develop a sentiment analysis tool using NLP (Natural Language Processing) techniques.",
 		"image": {
-			"src": "https://private-user-images.githubusercontent.com/91673370/267019630-9d6ae5f4-1155-4a55-9505-8c64d66dee01.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTU0NzI5MTIsIm5iZiI6MTY5NTQ3MjYxMiwicGF0aCI6Ii85MTY3MzM3MC8yNjcwMTk2MzAtOWQ2YWU1ZjQtMTE1NS00YTU1LTk1MDUtOGM2NGQ2NmRlZTAxLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA5MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwOTIzVDEyMzY1MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTNmODBhZmMxNTZjNmY1NmU2NzczMmMyNDdhNmRiM2FmYzkxOGQzNWNkZDBhZjVlMjJhZThiNjAzNmU5NmVlMmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.7A64SPtIBvRJEUDncJrQr36PUBbq-diI80QHyak-XOI",
+			"src": "https://user-images.githubusercontent.com/48220549/270884311-755bd65b-afa8-485b-b77a-ac41f751b820.png",
 			"alt": "Case 5 - Sentiment Analysis Image"
 		}
 	},
@@ -48,7 +48,7 @@
 		"title": "Data-driven Bankruptcy Prediction",
 		"description": "​​​​​Develop your own Bankruptcy score method that presents key aspects.",
 		"image": {
-			"src": "https://private-user-images.githubusercontent.com/91673370/267022632-ad6dd8da-3909-4892-b838-41a426ef56af.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTU0NzMwMjAsIm5iZiI6MTY5NTQ3MjcyMCwicGF0aCI6Ii85MTY3MzM3MC8yNjcwMjI2MzItYWQ2ZGQ4ZGEtMzkwOS00ODkyLWI4MzgtNDFhNDI2ZWY1NmFmLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA5MjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwOTIzVDEyMzg0MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTliMWZkMmQwYTZhMjgyNzRkZDUzZmY4ZWI3ZTgxNWMyZGZhYzE0M2UzNjJkYTMzYWE3MGQwMThjMGZhMDFkN2QmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.rED5hQBFKvJ-A631EoUx6gqdlXoxbZojYnkt5BNrt9Y",
+			"src": "https://user-images.githubusercontent.com/48220549/270884196-98347d2e-d0c0-4168-87cc-d37de0972bae.png",
 			"alt": "Case 5 - Data-driven Bankruptcy Prediction Image"
 		}
 	}
