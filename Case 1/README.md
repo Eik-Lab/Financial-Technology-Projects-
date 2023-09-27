@@ -20,7 +20,7 @@ In the context of a rapidly evolving energy and financial landscape, how can we 
 
 Design a predictive algorithm that determines optimal energy feed-in timings for individual power producers, enabling investment banks to better assess the financial implications and market dynamics of increased decentralized energy contributions to the grid.
 
-![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/37374275/39667a9f-6e39-468b-a38d-af27bc52ff55)
+
 
 ### SUGGESTED APPROACH
 
