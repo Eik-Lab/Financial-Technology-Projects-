@@ -1,6 +1,6 @@
 # NBIM hackathon 
 
-Welcome to the official repository for the NBIM hackathon 
+Welcome to the official repository for FinTech projects based on the NBIM hackathon 
 here you will find the key resources such a literature, tools and datasets that will accelerate your project 
 
 ![image](https://github.com/Eik-Lab/NBIM-hackathon/assets/48220549/7a0670c1-7b9f-4806-96f1-be6bb477ec5a)
